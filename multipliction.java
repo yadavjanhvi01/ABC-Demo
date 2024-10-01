@@ -9,7 +9,7 @@ public class multipliction
 	        System.out.print("Enter a number: ");
 	        int num = sc.nextInt();
 
-	        System.out.println("Multiplication " + num + ":");
+	        System.out.println("Multiplication of table " + num + ":");
 	        for (int i = 1; i <= 10; i++) {
 	            System.out.println(num + " x " + i + " = " + (num * i));
 	        }
